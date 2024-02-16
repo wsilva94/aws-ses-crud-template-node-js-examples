@@ -5,8 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "ts-node ./src/server.ts",
-        "start:prod": "npm run build && node ./dist/src/server.js",
-        "build": "npx tsc"
+        "start:prod": "npm run build && node ./dist/src/server.js"
     },
     "repository": {
         "type": "git",
